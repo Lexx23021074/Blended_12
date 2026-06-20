@@ -14,4 +14,8 @@ export const BASE_URL = 'https://dummyjson.com';
 
 export const ENDPOINTS = {
   categories: '/products/category-list',
+  pages: '/products',
+  productsByCategory: '/products/category',
 };
+
+export const PER_PAGE = 12;
